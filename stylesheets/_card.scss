@@ -1,5 +1,5 @@
 .card {
   border: 1px solid var(--border);
   background-color: var(--white);
-  min-width: $card-max-width;
+  max-width: $card-max-width;
 }
