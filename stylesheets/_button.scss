@@ -1,0 +1,13 @@
+.button {
+  background-color: var(--blue-light);
+  min-width: 268px;
+  padding: 8px;
+  color: var(--white);
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+
+  &:disabled {
+    background-color: #B0E0FC;
+  }
+}
