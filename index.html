@@ -24,41 +24,63 @@
         </div>
       </div>
 
-      <!--Login-->
-      <div class="flex flex-column align-center card">
-        <!--Logo-->
-        <div class="p-logo">
-          <img src="/assets/logo.png" alt="TODO: add descriptions with details">
+      <!--Card login-->
+      <div>
+        <!--Login-->
+        <div class="card flex flex-column align-center">
+          <!--Logo-->
+          <div class="p-logo">
+            <img src="/assets/logo.png" alt="TODO: add descriptions with details">
+          </div>
+
+          <!--Form-->
+          <div>
+            <form class="form flex flex-column align-center">
+              <!--E-mail-->
+              <div class="form-container">
+                <label>
+                  <span class="float active">Phone number, username, or email</span>
+                  <input class="form-input" aria-label="Phone number, username, or email" type="text" name="username"
+                    aria-required="true" />
+                </label>
+              </div>
+
+              <!--Password-->
+              <div class="form-container">
+                <label>
+                  <span class="float">Password</span>
+                  <input class="form-input" aria-label="Password" type="password" name="username"
+                    aria-required="true" />
+                </label>
+              </div>
+
+              <!--Button Submit-->
+              <div class="form-container">
+                <button type="button" class="button" disabled>Log In</button>
+              </div>
+            </form>
+          </div>
+
+          <!--Other options-->
+          <div class="options">
+            <p>OR</p>
+          </div>
+
+          <!--Facebook-->
+          <div class="facebook">
+            <a href="#">Log in with Facebook</a>
+          </div>
+
+          <div class="forgot-password">
+            <a href="#">Forgot password?</a>
+          </div>
         </div>
 
-        <!--Form-->
-        <div>
-          <form class="form flex flex-column align-center">
-            <!--E-mail-->
-            <div class="form-container">
-              <label>
-                <span class="float active">Phone number, username, or email</span>
-                <input class="form-input" aria-label="Phone number, username, or email" type="text" name="username"
-                  aria-required="true" />
-              </label>
-            </div>
-
-            <!--Password-->
-            <div class="form-container">
-              <label>
-                <span class="float">Password</span>
-                <input class="form-input" aria-label="Password" type="password" name="username" aria-required="true" />
-              </label>
-            </div>
-
-            <!--Button Submit-->
-            <div class="form-container">
-              <button type="button" class="button" disabled>Log In</button>
-            </div>
-          </form>
+        <!--Redirect to sign up-->
+        <div class="card flex flex-column align-center signup">
+          <p>Don't have an account? <a href="#">Sign up</a></p>
         </div>
       </div>
-
     </article>
   </main>
 

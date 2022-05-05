@@ -33,3 +33,72 @@
     border: none;
   }
 }
+
+.options {
+  display: flex;
+  align-content: center;
+  color: var(--outline-input);
+  font-weight: bold;
+  margin-top: 15px;
+  font-size: 13px;
+
+  >p {
+    &:after {
+      content: '';
+      display: inline-flex;
+      margin: 0 auto;
+      height: 1px;
+      width: 104px;
+      margin-left: 24px;
+      position: relative;
+      top: -4px;
+      background-color: var(--border);
+    }
+
+    &:before {
+      content: '';
+      display: inline-flex;
+      height: 1px;
+      width: 104px;
+      margin-right: 20px;
+      position: relative;
+      top: -4px;
+      background-color: var(--border);
+    }
+  }
+}
+
+.facebook {
+  margin-top: 35px;
+
+  >a {
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: var(--blue-dark);
+    font-weight: bold;
+    text-decoration: none;
+  }
+}
+
+.forgot-password {
+  margin-top: 10px;
+
+  >a {
+    font-size: 12px;
+    letter-spacing: 1px;
+    color: var(--blue-dark);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  margin-bottom: 20px;
+}
+
+.signup {
+  padding: 21px;
+
+  >p a {
+    color: var(--blue-light);
+    text-decoration: none;
+  }
+}
