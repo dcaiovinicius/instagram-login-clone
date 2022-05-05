@@ -35,13 +35,13 @@
 
           <!--Form-->
           <div>
-            <form class="form flex flex-column align-center">
+            <form class="form flex flex-column align-center" data-controller="login">
               <!--E-mail-->
               <div class="form-container">
                 <label>
                   <span class="float active">Phone number, username, or email</span>
-                  <input class="form-input" aria-label="Phone number, username, or email" type="text" name="username"
-                    aria-required="true" />
+                  <input class="form-input" data-login-target="email" aria-label="Phone number, username, or email"
+                    type="text" name="username" aria-required="true" />
                 </label>
               </div>
 
@@ -49,14 +49,15 @@
               <div class="form-container">
                 <label>
                   <span class="float">Password</span>
-                  <input class="form-input" aria-label="Password" type="password" name="username"
-                    aria-required="true" />
+                  <input class="form-input" data-login-target="password" aria-label="Password" type="password"
+                    name="username" aria-required="true" />
                 </label>
               </div>
 
               <!--Button Submit-->
               <div class="form-container">
-                <button type="button" class="button" disabled>Log In</button>
+                <button type="button" class="button" data-action="login#submit" data-login-target="button">Log
+                  In</button>
               </div>
             </form>
           </div>
