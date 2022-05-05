@@ -1,0 +1,9 @@
+@media (max-width: $breakpoint-1) {
+  .smartphone {
+    display: none;
+  }
+
+  .space-content {
+    justify-content: center;
+  }
+}
