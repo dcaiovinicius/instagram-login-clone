@@ -6,3 +6,16 @@
   background-size: 468.32px 634.15px;
   background-position: -46px 0;
 }
+
+.screen {
+  max-width: 653px;
+  display: none;
+  max-height: 544px;
+  position: relative;
+  top: 24px;
+  left: 110px;
+}
+
+.active {
+  display: block;
+}

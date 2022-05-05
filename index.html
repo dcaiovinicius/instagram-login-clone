@@ -20,7 +20,11 @@
     <article class="flex space-evenly">
       <!--Smartphone-->
       <div>
-        <div class="smartphone">
+        <div class="smartphone" data-controller="slide">
+          <img data-slide-target="slide" class="screen active" src="/assets/screen-1.png"
+            alt="TODO: add descriptions with details" />
+          <img data-slide-target="slide" class="screen" src="/assets/screen-2.png"
+            alt="TODO: add descriptions with details" />
         </div>
       </div>
 
@@ -39,7 +43,7 @@
               <!--E-mail-->
               <div class="form-container">
                 <label>
-                  <span class="float active">Phone number, username, or email</span>
+                  <span class="float">Phone number, username, or email</span>
                   <input class="form-input" data-login-target="email" aria-label="Phone number, username, or email"
                     type="text" name="username" aria-required="true" />
                 </label>
